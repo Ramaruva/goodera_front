@@ -1,9 +1,67 @@
 body{
     height: 1024px;
 width: 1440px;
-left: -720px;
-top: -513px;
+/* left: -720px;
+top: -513px; */
 border-radius: 0px;
 position: relative;
 background: #EAEAEA;
+}
+
+.hero{
+  
+    position: absolute;
+    width: 1440px;
+    height: 364px;
+    top: 0px;
+    left: 0px;
+    border-radius: 0px;
+    background: linear-gradient(274.83deg, #5DB0DF 0.58%, #5D7ADF 74.3%);
+}
+
+.navbar 
+{
+    height: 27px;
+    width: 1143px;
+    left: 143px;
+    top: 37px;
+    border-radius: 0px;
+    position: absolute;
+    display: flex;
+}
+
+.navbar>.logo{
+    position: absolute;
+    display: flex;
+width: 107px;
+height: 27px;
+left: 143px;
+top: 37px;
+}
+
+.vector{
+ position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 8.33%;
+bottom: 16.67%;
+border: 2px solid #FFFFFF;
+}
+
+.logo>.jobhunt{
+    position: absolute;
+width: 79px;
+height: 27px;
+left: 171px;
+top: 37px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+color: #FFFFFF;
+
 }
